@@ -9,17 +9,19 @@ public class TestDataType {
 		System.out.println(b);
 		System.out.println(a2);
 		System.out.println(a3);
-		System.out.println(Integer.toBinaryString(a));//½«Ê®½øÖÆ×ª»¯Îª¶ş½øÖÆ
-		System.out.println(Integer.toOctalString(a));//½«Ê®½øÖÆ×ª»¯Îª°Ë½øÖÆ
-		System.out.println(Integer.toHexString(a));//½«Ê®½øÖÆ×ª»¯ÎªÊ®Áù½øÖÆ
+		System.out.println(Integer.toBinaryString(a));//å°†åè¿›åˆ¶è½¬åŒ–ä¸ºäºŒè¿›åˆ¶
+		System.out.println(Integer.toOctalString(a));//å°†åè¿›åˆ¶è½¬åŒ–ä¸ºå…«è¿›åˆ¶
+		System.out.println(Integer.toHexString(a));//å°†åè¿›åˆ¶è½¬åŒ–ä¸ºåå…­è¿›åˆ¶
 
 		int a5 = 10;
 		long a6 = 300;
-		byte b2 = 100;//Èç¹ûÊı¾İµÄ´óĞ¡Ã»ÓĞ³¬¹ıbyte/short/charµÄ±íÊö·¶Î§£¬Ôò¿ÉÒÔ×Ô¶¯×ªĞÍ¡£
+		byte b2 = 100;//å¦‚æœæ•°æ®çš„å¤§å°æ²¡æœ‰è¶…è¿‡byte/short/charçš„è¡¨è¿°èŒƒå›´ï¼Œåˆ™å¯ä»¥è‡ªåŠ¨è½¬å‹ã€‚
 		
-		long a7 = 1112321232L;//¼ÓL½«Êı×Ô¶¯×ª»¯ÎªlongÀàĞÍµÄÊıĞÍ£¬²»ÓÃlÎó½âÎª1
+		long a7 = 1112321232L;//åŠ Lå°†æ•°è‡ªåŠ¨è½¬åŒ–ä¸ºlongç±»å‹çš„æ•°å‹ï¼Œä¸ç”¨lè¯¯è§£ä¸º1
 		long l = 3;
-		//longl2 = l+3;//LÎÊÌâ
+		//longl2 = l+3;//Lé—®é¢˜
 
 	}
+}
+public void Test(){
 }
